@@ -19,7 +19,7 @@ const Sidebar = () => {
             </div>
             <div className=' h-[calc(100vh-3.56rem)]  border-r-gray-950 p-3'>
                 <ul className='font-[heading2] tracking-wide '>
-                    <li><Link to={"/emp_dashboard"} className={`flex gap-2 items-center p-2 mb-1  hover:bg-gray-200 ease-in duration-300 rounded ${pathname=="/emp_dashboard" && "bg-gray-400"} `}><img src={dashboard} className='w-5 h-5' /><p>Dashboard</p></Link></li>
+                    <li><Link to={"/emp_dashboard"} className={`flex gap-2 items-center p-2 mb-1  hover:bg-gray-200 ease-in duration-300 rounded ${pathname=="/emp_dashboard/" && "bg-gray-400"} `}><img src={dashboard} className='w-5 h-5' /><p>Dashboard</p></Link></li>
                     <li><Link to={"/emp_dashboard/leave"} className={`flex gap-2 items-center p-2  hover:bg-gray-200 ease-in duration-300 rounded ${pathname=="/emp_dashboard/leave" && "bg-gray-400"  } `}><img src={leave} className='w-5 h-5' /><p>Leave</p></Link></li>
                     <li><Link to={"/emp_dashboard"} className='flex gap-2 items-center p-2  hover:bg-gray-200 ease-in duration-300 rounded '><img src={salary} className='w-5 h-5' /><p>Salary</p></Link></li>
                     <li><Link to={"/emp_dashboard"} className='flex gap-2 items-center p-2  hover:bg-gray-200 ease-in duration-300 rounded '><img src={task} className='w-5 h-5' /><p>Assigned tasks</p></Link></li>
